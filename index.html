@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>index</title>
+        <link rel="stylesheet" href="css/world.css">
+    </head>
+    <body>
+        <div class="crosshair"></div>
+        <div class="help">WASD, Spacebar, Mouse</div>
+        <div class="viewport">
+            <div id="camera">
+                <div id="world">
+                    <div class="space">
+                        <div class="main_wall left" real-x data-x="500" data-z="0" data-w="1000"></div>
+                        <div class="main_wall right" real-x data-x="-500" data-z="0" data-w="1000"></div>
+                        <div class="main_wall front" real-z data-x="0" data-z="500" data-w="1000"></div>
+                        <div class="main_wall back" real-z data-x="0" data-z="-500" data-w="1000"></div>
+                        <div class="main_wall bottom"></div>
+                        <div class="main_wall top"></div>
+                        <div class="wall front" real-z data-x="0" data-z="-100" data-w="200"></div>
+                        <div class="wall back" real-z data-x="0" data-z="-120" data-w="200"></div>
+                        <div class="wall left" real-x data-x="100" data-z="-110" data-w="20"></div>
+                        <div class="wall right" real-x data-x="-100" data-z="-110" data-w="20"></div>
+                        <div class="wall top"></div>
+                        <div id="door"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/world.js"></script>
+    </body>
+</html>
